@@ -1,0 +1,62 @@
+# =====================================
+# Core .NET build artifacts
+# =====================================
+bin/
+obj/
+**/bin/
+**/obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# =====================================
+# User-specific & IDE files
+# =====================================
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider / IntelliJ IDEA
+.idea/
+.idea.*
+*.iml
+
+# =====================================
+# OS-specific files
+# =====================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =====================================
+# NuGet / Package Restore
+# =====================================
+*.nupkg
+*.snupkg
+*.nuspec
+*.NuGet.Config
+project.lock.json
+project.fragment.lock.json
+
+# =====================================
+# Build system / temporary folders
+# =====================================
+artifacts/
+dist/
+publish/
+temp/
+logs/

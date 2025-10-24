@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zBDe1pWcdUc=",
+  "dgSpecHash": "0s0/sCdfrTw=",
   "success": true,
   "projectFilePath": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\UserService\\src\\UserService.Application\\UserService.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Black\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-rc.2.25502.107\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.2.25502.107.nupkg.sha512"
+  ],
   "logs": []
 }

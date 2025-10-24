@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\UserService",
-    "\\UserService\\src",
+    "\\FileService",
+    "\\FileService\\src",
+    "\\FileService\\src\\FileService.Api",
     "\\UserService\\src\\UserService.Api"
   ],
-  "SelectedNode": "\\UserService\\src\\UserService.Api\\UserService.Api.csproj",
+  "SelectedNode": "\\FileService\\src",
   "PreviewInSolutionExplorer": false
 }

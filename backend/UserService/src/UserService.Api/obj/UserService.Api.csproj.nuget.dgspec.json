@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\UserService\\src\\UserService.Api\\UserService.Api.csproj": {}
+    "D:\\ProjectsWeb\\FMS-Microservice\\backend\\UserService\\src\\UserService.Api\\UserService.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\UserService\\src\\UserService.Api\\UserService.Api.csproj": {
+    "D:\\ProjectsWeb\\FMS-Microservice\\backend\\UserService\\src\\UserService.Api\\UserService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\UserService\\src\\UserService.Api\\UserService.Api.csproj",
+        "projectUniqueName": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\UserService\\src\\UserService.Api\\UserService.Api.csproj",
         "projectName": "UserService.Api",
-        "projectPath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\UserService\\src\\UserService.Api\\UserService.Api.csproj",
-        "packagesPath": "C:\\Users\\achra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\UserService\\src\\UserService.Api\\obj\\",
+        "projectPath": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\UserService\\src\\UserService.Api\\UserService.Api.csproj",
+        "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\UserService\\src\\UserService.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\achra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -21,6 +21,41 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Microsoft.Extensions.DependencyInjection/10.0.0-rc.2.25502.107": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0-rc.2.25502.107"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0-rc.2.25502.107": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
       "Microsoft.OpenApi/1.6.17": {
         "type": "package",
         "compile": {
@@ -32,6 +67,56 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "FileService.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "FileService.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.0-rc.2.25502.107"
+        },
+        "compile": {
+          "bin/placeholder/FileService.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileService.Application.dll": {}
+        }
+      },
+      "FileService.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FileService.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileService.Domain.dll": {}
+        }
+      },
+      "FileService.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "10.0.0-rc.2.25502.107"
+        },
+        "compile": {
+          "bin/placeholder/FileService.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileService.Infrastructure.dll": {}
+        }
+      },
+      "FileService.Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "10.0.0-rc.2.25502.107"
+        },
+        "compile": {
+          "bin/placeholder/FileService.Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FileService.Presentation.dll": {}
         }
       }
     }
@@ -53,6 +138,68 @@
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
+    "Microsoft.Extensions.DependencyInjection/10.0.0-rc.2.25502.107": {
+      "sha512": "mDw80K98jBWCyLFCra51PRv+Ttnjse1lZIzXEFybKby0/ajBFTEeHj/4r/QJexmb8Uun0yaFH1HlFtmHP1YEVA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/10.0.0-rc.2.25502.107",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.10.0.0-rc.2.25502.107.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0-rc.2.25502.107": {
+      "sha512": "8jujunpkNNfTkE9PFHp9/aD6GPKVfNCuz8tUbzOcyU5tQOCoIZId4hwQNVx3Tb8XEWw9BYdh0k5vPpqdCM+UtA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/10.0.0-rc.2.25502.107",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.2.25502.107.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.OpenApi/1.6.17": {
       "sha512": "Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==",
       "type": "package",
@@ -67,31 +214,55 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "FileService.Application/1.0.0": {
+      "type": "project",
+      "path": "../FileService.Application/FileService.Application.csproj",
+      "msbuildProject": "../FileService.Application/FileService.Application.csproj"
+    },
+    "FileService.Domain/1.0.0": {
+      "type": "project",
+      "path": "../FileService.Domain/FileService.Domain.csproj",
+      "msbuildProject": "../FileService.Domain/FileService.Domain.csproj"
+    },
+    "FileService.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../FileService.Infrastructure/FileService.Infrastructure.csproj",
+      "msbuildProject": "../FileService.Infrastructure/FileService.Infrastructure.csproj"
+    },
+    "FileService.Presentation/1.0.0": {
+      "type": "project",
+      "path": "../FileService.Presentation/FileService.Presentation.csproj",
+      "msbuildProject": "../FileService.Presentation/FileService.Presentation.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.OpenApi >= 9.0.10"
+      "FileService.Application >= 1.0.0",
+      "FileService.Infrastructure >= 1.0.0",
+      "FileService.Presentation >= 1.0.0",
+      "Microsoft.AspNetCore.OpenApi >= 9.0.10",
+      "Microsoft.Extensions.DependencyInjection >= 10.0.0-rc.2.25502.107"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Black\\.nuget\\packages\\": {},
+    "C:\\Users\\achra\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\FileService\\FileService.Api\\FileService.Api.csproj",
+      "projectUniqueName": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Api\\FileService.Api.csproj",
       "projectName": "FileService.Api",
-      "projectPath": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\FileService\\FileService.Api\\FileService.Api.csproj",
-      "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\FileService\\FileService.Api\\obj\\",
+      "projectPath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Api\\FileService.Api.csproj",
+      "packagesPath": "C:\\Users\\achra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\achra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -105,7 +276,17 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Application\\FileService.Application.csproj": {
+              "projectPath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Application\\FileService.Application.csproj"
+            },
+            "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Infrastructure\\FileService.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Infrastructure\\FileService.Infrastructure.csproj"
+            },
+            "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Presentation\\FileService.Presentation.csproj": {
+              "projectPath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Presentation\\FileService.Presentation.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -127,6 +308,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.10, )"
+          },
+          "Microsoft.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[10.0.0-rc.2.25502.107, )"
           }
         },
         "imports": [

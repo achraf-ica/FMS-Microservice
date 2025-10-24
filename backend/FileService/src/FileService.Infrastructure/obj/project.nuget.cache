@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ijo5GOJ2VN8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\FileService\\src\\FileService.Infrastructure\\FileService.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\achra\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.0-rc.2.25502.107\\microsoft.extensions.dependencyinjection.10.0.0-rc.2.25502.107.nupkg.sha512",
+    "C:\\Users\\achra\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-rc.2.25502.107\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.2.25502.107.nupkg.sha512"
+  ],
+  "logs": []
+}

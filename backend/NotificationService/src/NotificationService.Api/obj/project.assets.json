@@ -75,23 +75,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Black\\.nuget\\packages\\": {},
+    "C:\\Users\\achra\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\NotificationService\\src\\NotificationService.Api\\NotificationService.Api.csproj",
+      "projectUniqueName": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\NotificationService\\src\\NotificationService.Api\\NotificationService.Api.csproj",
       "projectName": "NotificationService.Api",
-      "projectPath": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\NotificationService\\src\\NotificationService.Api\\NotificationService.Api.csproj",
-      "packagesPath": "C:\\Users\\Black\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjectsWeb\\FMS-Microservice\\backend\\NotificationService\\src\\NotificationService.Api\\obj\\",
+      "projectPath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\NotificationService\\src\\NotificationService.Api\\NotificationService.Api.csproj",
+      "packagesPath": "C:\\Users\\achra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\achra\\Desktop\\FileDoc\\backend\\NotificationService\\src\\NotificationService.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Black\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\achra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -8,6 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.10" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0-rc.2.25502.107" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileService.Application\FileService.Application.csproj" />
+    <ProjectReference Include="..\FileService.Infrastructure\FileService.Infrastructure.csproj" />
+    <ProjectReference Include="..\FileService.Presentation\FileService.Presentation.csproj" />
   </ItemGroup>
 
 </Project>
